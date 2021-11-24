@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Sepete Ürün Ekleme Senaryoları":["specs/basket.html"]}};

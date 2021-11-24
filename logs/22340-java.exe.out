@@ -1,0 +1,74 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1299milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1299"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62526"}
+{"logLevel":"info","message":"Listening on port:62526"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.setPassword' and 'tests.LoginTest.setPassword'"}
+{"logLevel":"debug","message":"Found Şifre {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.clickLoginButton' and 'tests.LoginTest.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Giriş yap butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.clickLogin' and 'tests.LoginTest.clickLogin'"}
+{"logLevel":"debug","message":"Found Açılan menüde Giriş Yap tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BasketTest.clickOtherMerchantButton' and 'tests.BasketTest.clickOtherMerchantButton'"}
+{"logLevel":"debug","message":"Found Farklı bir satıcıdan ürün sepete eklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.setSearch' and 'tests.ProductTest.setSearch'"}
+{"logLevel":"debug","message":"Found Arama alanına {} yazılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.clickProduct' and 'tests.ProductTest.clickProduct'"}
+{"logLevel":"debug","message":"Found Listelenen ürünlerden rastgele bir ürün seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BasketTest.clickBasketButton' and 'tests.BasketTest.clickBasketButton'"}
+{"logLevel":"debug","message":"Found Sepet butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ProductTest.clickSearchButton' and 'tests.ProductTest.clickSearchButton'"}
+{"logLevel":"debug","message":"Found Ara butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.clickAccountButton' and 'tests.LoginTest.clickAccountButton'"}
+{"logLevel":"debug","message":"Found Giriş yap veya üye ol butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.getUrl' and 'tests.LoginTest.getUrl'"}
+{"logLevel":"debug","message":"Found Hepsiburada sitesine gidilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BasketTest.clickAddToCardButton' and 'tests.BasketTest.clickAddToCardButton'"}
+{"logLevel":"debug","message":"Found Seçilen ürün sepete eklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.setUserName' and 'tests.LoginTest.setUserName'"}
+{"logLevel":"debug","message":"Found E-Mail adresi {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BasketTest.checkBasket' and 'tests.BasketTest.checkBasket'"}
+{"logLevel":"debug","message":"Found Seçilen ürünlerin sepete doğru olarak eklendiği kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.clickEmailSelectButton' and 'tests.LoginTest.clickEmailSelectButton'"}
+{"logLevel":"debug","message":"Found Giriş yap butonuna tıklanır ve login olduğu görülür in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tFarklı bir satıcıdan ürün sepete eklenir : public void clickOtherMerchantButton()"}
+{"logLevel":"debug","message":"\tAçılan menüde Giriş Yap tıklanır : public void clickLogin()"}
+{"logLevel":"debug","message":"\tSeçilen ürünlerin sepete doğru olarak eklendiği kontrol edilir : public void checkBasket()"}
+{"logLevel":"debug","message":"\tArama alanına {} yazılır : public void setSearch(String product)"}
+{"logLevel":"debug","message":"\tSeçilen ürün sepete eklenir : public void clickAddToCardButton()"}
+{"logLevel":"debug","message":"\tHepsiburada sitesine gidilir : public void getUrl()"}
+{"logLevel":"debug","message":"\tGiriş yap butonuna tıklanır : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tGiriş yap veya üye ol butonuna tıklanır : public void clickAccountButton()"}
+{"logLevel":"debug","message":"\tListelenen ürünlerden rastgele bir ürün seçilir : public void clickProduct()"}
+{"logLevel":"debug","message":"\tSepet butonuna tıklanır : public void clickBasketButton()"}
+{"logLevel":"debug","message":"\tGiriş yap butonuna tıklanır ve login olduğu görülür : public void clickEmailSelectButton()"}
+{"logLevel":"debug","message":"\tE-Mail adresi {} girilir : public void setUserName(String eMail)"}
+{"logLevel":"debug","message":"\tAra butonuna tıklanır : public void clickSearchButton()"}
+{"logLevel":"debug","message":"\tŞifre {} girilir : public void setPassword(String password)"}
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 26389
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Kas 23, 2021 9:42:55 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Hepsiburada sitesine gidilir' using 'class tests.LoginTest.getUrl"}
+{"logLevel":"debug","message":"Executing 'Arama alanına {} yazılır' using 'class tests.ProductTest.setSearch"}
+{"logLevel":"debug","message":"Executing 'Ara butonuna tıklanır' using 'class tests.ProductTest.clickSearchButton"}
+{"logLevel":"debug","message":"Executing 'Listelenen ürünlerden rastgele bir ürün seçilir' using 'class tests.ProductTest.clickProduct"}
+Maybelline New York Lash Sensational Maskara - Burgundy Brown
+{"logLevel":"debug","message":"Executing 'Seçilen ürün sepete eklenir' using 'class tests.BasketTest.clickAddToCardButton"}
+{"logLevel":"debug","message":"Executing 'Farklı bir satıcıdan ürün sepete eklenir' using 'class tests.BasketTest.clickOtherMerchantButton"}
+{"logLevel":"debug","message":"Executing 'Sepet butonuna tıklanır' using 'class tests.BasketTest.clickBasketButton"}
+{"logLevel":"debug","message":"Executing 'Seçilen ürünlerin sepete doğru olarak eklendiği kontrol edilir' using 'class tests.BasketTest.checkBasket"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
